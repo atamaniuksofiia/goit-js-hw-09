@@ -40,4 +40,3 @@ formData.message = "";
 emailInput.value = "";
 messageTextarea.value = "";
 });
-
