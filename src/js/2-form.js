@@ -1,4 +1,4 @@
-formData = {
+const formData = {
 email: "",
 message: ""
 }
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
      alert('Fill please all fields');
      return
  }
-console.log(formData);
+console.log({ email, message });
 
 localStorage.removeItem('feedback-form-state');
 formData.email = "";
@@ -40,3 +40,4 @@ formData.message = "";
 emailInput.value = "";
 messageTextarea.value = "";
 });
+
